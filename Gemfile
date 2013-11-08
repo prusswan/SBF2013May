@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '~> 4.0.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -38,7 +38,9 @@ end
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
-gem 'rails_admin'
+# gem 'sbf', github: 'prusswan/sbf', branch: 'experimental'
+gem 'sbf', path: '~/Projects/sbf'
+
 gem 'cancan'
 gem 'settingslogic'
 

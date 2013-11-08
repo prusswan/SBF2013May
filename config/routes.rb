@@ -1,7 +1,7 @@
 Sbf2013::Application.routes.draw do
   get "buses/route/:service", to: 'buses#getRoute'
 
-  mount RailsAdmin::Engine => '/', :as => 'rails_admin'
+  # mount RailsAdmin::Engine => '/', :as => 'rails_admin'
 
   # resources :units, only: :index
 
