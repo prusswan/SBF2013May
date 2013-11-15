@@ -2,6 +2,7 @@ PATH
   remote: ~/Projects/sbf
   specs:
     sbf (0.0.1)
+      cancan
       rails (~> 4.0.1)
       rails_admin
 
@@ -255,7 +256,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cancan
   capybara
   capybara-webkit
   coffee-rails (~> 4.0.0)

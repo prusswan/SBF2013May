@@ -41,7 +41,6 @@ end
 # gem 'sbf', github: 'prusswan/sbf', branch: 'experimental'
 gem 'sbf', path: '~/Projects/sbf'
 
-gem 'cancan'
 gem 'settingslogic'
 
 group :development, :test do
