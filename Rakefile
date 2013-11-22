@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Sbf2013::Application.load_tasks
+SBF2013May::Application.load_tasks
