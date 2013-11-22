@@ -38,8 +38,8 @@ end
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
-# gem 'sbf', github: 'prusswan/sbf', branch: 'experimental'
-gem 'sbf', path: '~/Projects/sbf'
+gem 'sbf', github: 'prusswan/sbf' #, branch: 'engine-migrations'
+# gem 'sbf', path: '~/Projects/sbf'
 
 gem 'settingslogic'
 

@@ -1,4 +1,4 @@
-Sbf2013::Application.routes.draw do
+SBF2013May::Application.routes.draw do
   get "buses/route/:service", to: 'buses#getRoute'
 
   # mount RailsAdmin::Engine => '/', :as => 'rails_admin'

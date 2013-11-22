@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Sbf2013::Application.config.secret_key_base = '156f079ffa9b0422e9e6849fd72a19720f874ffe22a367842f5244e86d1baf0c592108521ef979020c561eeb9e027b796d05d5aea17914ee982ff5250e54dc38'
+SBF2013May::Application.config.secret_key_base = '156f079ffa9b0422e9e6849fd72a19720f874ffe22a367842f5244e86d1baf0c592108521ef979020c561eeb9e027b796d05d5aea17914ee982ff5250e54dc38'
